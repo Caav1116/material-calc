@@ -37,6 +37,7 @@ int main()
 		cin >> sqm;
 		area = len * wid;
 		boxes = area / sqm;
+  		cement = Cembag * area;
 		cout << " You will need " << boxes << " boxes to cover that sqaure/rectangle with tiles" << endl;
 		cout << " You will need " << cement << " bags of tile cement to cover that area " << endl;
 	}
